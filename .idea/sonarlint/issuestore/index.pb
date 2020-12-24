@@ -1,0 +1,25 @@
+
+}
+Mapp/src/main/java/com/lucianommoura/githubktrepo/adapter/GitHubListAdapter.kt,b\f\bfba9af9dc816ecf38ea497eade615c8e995d68d
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+|
+Lapp/src/main/java/com/lucianommoura/githubktrepo/model/GitHubItemResponse.kt,0\6\06eabed21f6afefeff90321378a806fd4365b07d
+v
+Fapp/src/main/java/com/lucianommoura/githubktrepo/services/GitHubAPI.kt,0\d\0d22094740c7f404f4097d4e16a01caeb37ff358
+€
+Papp/src/main/java/com/lucianommoura/githubktrepo/repository/GitHubRespository.kt,4\f\4fe25e414261887b49332def94bddeacbe1b1c7c
+}
+Mapp/src/main/java/com/lucianommoura/githubktrepo/services/RetroFitInstance.kt,4\5\45190e936a2c578e288b8a255d957ba2938b61b3
+p
+@app/src/main/java/com/lucianommoura/githubktrepo/MainActivity.kt,c\9\c949514ea30860ac429e87374f51ac06f246a0d6
+q
+Aapp/src/main/java/com/lucianommoura/githubktrepo/MainViewModel.kt,8\f\8f8b50304209ac66b5d9a34ece1fcc70516c1f68
+x
+Happ/src/main/java/com/lucianommoura/githubktrepo/MainViewModelFactory.kt,a\3\a35a839a263120596a62d1695ad4e65e0f926c3f
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+z
+Japp/src/main/java/com/lucianommoura/githubktrepo/model/GitHubViewHolder.kt,5\d\5d99794c060da02f2f0657713e6e7c258ca2f5c1
+X
+(gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e

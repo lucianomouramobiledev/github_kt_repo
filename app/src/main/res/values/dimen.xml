@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Github ViewHolder -->
+    <dimen name="github_viewholder_container_padding_bottom">20dp</dimen>
+    <dimen name="github_viewholder_image_left">20dp</dimen>
+    <dimen name="github_viewholder_image_top">20dp</dimen>
+    <dimen name="github_viewholder_image_width">60dp</dimen>
+    <dimen name="github_viewholder_image_height">60dp</dimen>
+    <dimen name="github_viewholder_name_left_padding">20dp</dimen>
+    <dimen name="github_viewholder_left_space_padding">5dp</dimen>
+    <dimen name="github_viewholder_starst_margint_end_padding">20dp</dimen>
+
+</resources>

@@ -1,0 +1,118 @@
+package com.lucianommoura.githubktrepo.model
+
+data class GitHubItemResponse(
+    val incomplete_results: Boolean,
+    val items: List<Item>,
+    val total_count: Int
+)
+/*
+* Item(full_name = "android/architecture-samples", owner = Owner(login = ""), stargazers_count = 37984, forks_count = 10499 )
+* */
+//data class Item(val full_name: String?, val stargazers_count: Int?)
+
+
+data class Item(
+    var archive_url: String = "",
+    var archived: Boolean? = false,
+    var assignees_url: String? = "",
+    var blobs_url: String? = "",
+    var branches_url: String? = "",
+    var clone_url: String? = "",
+    var collaborators_url: String? = "",
+    var comments_url: String? = "",
+    var commits_url: String? = "",
+    var compare_url: String? = "",
+    var contents_url: String? = "",
+    var contributors_url: String? = "",
+    var created_at: String? = "",
+    var default_branch: String? = "",
+    var deployments_url: String? = "",
+    var description: String? = "",
+    var disabled: Boolean? = false,
+    var downloads_url: String? = "",
+    var events_url: String? = "",
+    var fork: Boolean? = false,
+    var forks: Int = 0,
+    var forks_count: Int = 0,
+    var forks_url: String? = "",
+    var full_name: String? = "",
+    var git_commits_url: String? = "",
+    var git_refs_url: String? = "",
+    var git_tags_url: String? = "",
+    var git_url: String? = "",
+    var has_downloads: Boolean? = false,
+    var has_issues: Boolean? = false,
+    var has_pages: Boolean? = false,
+    var has_projects: Boolean? = false,
+    var has_wiki: Boolean? = false,
+    var homepage: String? = "",
+    var hooks_url: String? = "",
+    var html_url: String? = "",
+    var id: Int? = 0,
+    var issue_comment_url: String? = "",
+    var issue_events_url: String? = "",
+    var issues_url: String? = "",
+    var keys_url: String? = "",
+    var labels_url: String? = "",
+    var language: String? = "",
+    var languages_url: String? = "",
+    var license: License?,
+    var merges_url: String? = "",
+    var milestones_url: String? = "",
+    var mirror_url: Any? = "",
+    var name: String? = "",
+    var node_id: String? = "",
+    var notifications_url: String? = "",
+    var open_issues: Int? = 0,
+    var open_issues_count: Int? = 0,
+    var owner: Owner?,
+    var `private`: Boolean? = false,
+    var pulls_url: String? = "",
+    var pushed_at: String? = "",
+    var releases_url: String? = "",
+    var score: Double? = 0.0,
+    var size: Int? = 0,
+    var ssh_url: String? = "",
+    var stargazers_count: Int?,
+    var stargazers_url: String? = "",
+    var statuses_url: String? = "",
+    var subscribers_url: String? = "",
+    var subscription_url: String? = "",
+    var svn_url: String? = "",
+    var tags_url: String? = "",
+    var teams_url: String? = "",
+    var trees_url: String? = "",
+    var updated_at: String? = "",
+    var url: String? = "",
+    var watchers: Int? = 0,
+    var watchers_count: Int = 0
+)
+
+data class License(
+    var key: String?,
+    var name: String? = "",
+    var node_id: String? = "",
+    var spdx_id: String? = "",
+    var url: String? = ""
+)
+
+data class Owner(
+    var avatar_url: String? = "",
+    var events_url: String? = "",
+    var followers_url: String? = "",
+    var following_url: String? = "",
+    var gists_url: String? = "",
+    var gravatar_id: String? = "",
+    var html_url: String? = "",
+    var id: Int? = 0,
+    var login: String = "",
+    var node_id: String? = "",
+    var organizations_url: String? = "",
+    var received_events_url: String? = "",
+    var repos_url: String? = "",
+    var site_admin: Boolean? = false,
+    var starred_url: String? = "",
+    var subscriptions_url: String? = "",
+    var type: String? = "",
+    var url: String? = ""
+)

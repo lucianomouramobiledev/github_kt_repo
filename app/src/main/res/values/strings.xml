@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Github KTRepo</string>
+
+    <!-- Github ViewHolder Name -->
+    <string name="github_viewholder_fork_description">Fork:</string>
+    <string name="github_viewholder_project_name_description">Nome do projeto:</string>
+    <string name="github_viewholder_stars_description">Estrelas:</string>
+    <string name="github_viewholder_author_name_description">Autor:</string>
+
+</resources>

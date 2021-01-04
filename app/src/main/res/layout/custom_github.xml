@@ -1,0 +1,93 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray"
+        android:paddingBottom="@dimen/github_viewholder_container_padding_bottom">
+
+        <ImageView
+            android:id="@+id/githubItemImage"
+            android:layout_width="@dimen/github_viewholder_image_width"
+            android:layout_height="@dimen/github_viewholder_image_height"
+            android:layout_marginStart="@dimen/github_viewholder_image_left"
+            android:layout_marginTop="@dimen/github_viewholder_image_top"
+            android:scaleType="fitXY"
+            android:src="@drawable/abc_vector_test"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/githubItemNameDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/github_viewholder_name_left_padding"
+            android:text="@string/github_viewholder_project_name_description"
+            app:layout_constraintStart_toEndOf="@+id/githubItemImage"
+            app:layout_constraintTop_toTopOf="@+id/githubItemImage" />
+
+        <TextView
+            android:id="@+id/githubItemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="@+id/githubItemNameDescription"
+            app:layout_constraintTop_toBottomOf="@+id/githubItemNameDescription"
+            tools:text="Project name" />
+
+        <TextView
+            android:id="@+id/githubItemForkDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/github_viewholder_fork_description"
+            app:layout_constraintStart_toStartOf="@+id/githubItemNameDescription"
+            app:layout_constraintTop_toBottomOf="@+id/githubItemName" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/github_viewholder_left_space_padding"
+            android:text="@string/github_viewholder_stars_description"
+            app:layout_constraintEnd_toStartOf="@+id/gitHubItemStars"
+            app:layout_constraintTop_toBottomOf="@+id/githubItemName" />
+
+        <TextView
+            android:id="@+id/gitHubItemStars"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/github_viewholder_starst_margint_end_padding"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/githubItemName"
+            tools:text="2*" />
+
+        <TextView
+            android:id="@+id/githubItemForkName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/github_viewholder_left_space_padding"
+            app:layout_constraintStart_toEndOf="@+id/githubItemForkDescription"
+            app:layout_constraintTop_toBottomOf="@+id/githubItemName"
+            tools:text="300" />
+
+        <TextView
+            android:id="@+id/githubItemAuthorName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/github_viewholder_left_space_padding"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/githubItemAuthorDescription"
+            app:layout_constraintTop_toBottomOf="@+id/githubItemForkName"
+            tools:text="Author name" />
+
+        <TextView
+            android:id="@+id/githubItemAuthorDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/github_viewholder_author_name_description"
+            app:layout_constraintStart_toStartOf="@+id/githubItemForkDescription"
+            app:layout_constraintTop_toBottomOf="@+id/githubItemForkDescription" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
